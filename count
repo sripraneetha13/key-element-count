@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+        int a[],i,n,key,count=0;
+
+Scanner input = new Scanner(System.in);
+System.out.println("enter the size");
+n = input.nextInt();
+
+System.out.println("enter the value of key");
+key = input.nextInt();
+a =new int[n];
+System.out.println("enter the elements");
+for(i=0;i<n;i++)
+ 
+    a[i]=input.nextInt();
+ 
+
+ for( i=0;i<n ;i++)
+    {
+        if(a[i]==key)
+        {
+            count++;
+       
+           
+           
+        }
+       
+    }
+   System.out.println("no of times key element repeated "+count);
+  }
+}
